@@ -1,0 +1,87 @@
+ * {
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Road Rage', cursive;
+ }
+ 
+ body {
+     background-image: url(https://images.unsplash.com/photo-1479750178258-aec5879046ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=998&q=80);
+     height: 100vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: 10% 20%;
+     font-weight: 300;
+ }
+ 
+ h2 {
+     text-align: center;
+     letter-spacing: 3px;
+     font-size: 5rem
+ }
+ 
+ small {
+     font-family: 'Roboto Slab', serif;
+ }
+ 
+ h1 {
+     font-weight: 800;
+     font-size: 4em;
+ }
+ 
+ .container {
+     display: grid;
+     grid-template-rows: 1;
+     grid-template-columns: 1;
+     font-size: 2rem;
+     padding: 1.5em 1em;
+     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+     backdrop-filter: blur( 11.5px);
+     -webkit-backdrop-filter: blur( 11.5px);
+     border-radius: 10px;
+     border: 1px solid rgba( 255, 255, 255, 0.18);
+ }
+ 
+ .timer {
+     display: grid;
+     grid-template-rows: 1fr;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     justify-content: center;
+ }
+ 
+ .timer-container {
+     margin: 2rem .5rem 2rem .5rem;
+     font-size: 2rem;
+     padding: .5em .5em;
+     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+     backdrop-filter: blur( 11.5px);
+     -webkit-backdrop-filter: blur( 11.5px);
+     border-radius: 10px;
+     border: 1px solid rgba( 255, 255, 255, 0.18);
+     text-align: center;
+ }
+ 
+ .timerdays {
+     grid-column-start: 1;
+     grid-column-end: 2;
+ }
+ 
+ .timerhours {
+     grid-column-start: 2;
+     grid-column-end: 3;
+ }
+ 
+ .timerminutes {
+     grid-column-start: 3;
+     grid-column-end: 4;
+ }
+ 
+ .timerseconds {
+     grid-column-start: 4;
+     grid-column-end: 5;
+ }
+ 
+ @media only screen and (max-width: 600px) {
+     .timer-container {
+         font-size: 1.5rem;
+     }
+ }
