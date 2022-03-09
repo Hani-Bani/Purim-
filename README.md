@@ -14,7 +14,7 @@
 
 ## Overview
 
-![screenshot]https://github.com/Hani-Bani/Purim-/blob/main/purim%20countdown.PNG?raw=true)
+![screenshot](https://github.com/Hani-Bani/Purim-/blob/f99cc7117a7af8cd7b10be18c5e5c34e6c65d076/purim%20countdown.PNG)
 
 
 ### Built With
