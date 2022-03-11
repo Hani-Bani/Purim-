@@ -28,7 +28,7 @@
      font-size: 4em;
  }
  
- .container {
+ .heading {
      display: grid;
      grid-template-rows: 1;
      grid-template-columns: 1;
@@ -60,22 +60,22 @@
      text-align: center;
  }
  
- .timerdays {
+ .days {
      grid-column-start: 1;
      grid-column-end: 2;
  }
  
- .timerhours {
+ .hours {
      grid-column-start: 2;
      grid-column-end: 3;
  }
  
- .timerminutes {
+ .minutes {
      grid-column-start: 3;
      grid-column-end: 4;
  }
  
- .timerseconds {
+ .seconds {
      grid-column-start: 4;
      grid-column-end: 5;
  }

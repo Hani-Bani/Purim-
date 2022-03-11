@@ -45,13 +45,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     setInterval(countDowntoPurim, 1000)
 
-
-
-
-
-
-
-
-
-
 })
